@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+.section-1{
+    background-image: url(/assets/slide1.jpg);
+    width: 1349px;
+    height: 1024px;
+    transition: background-image 0.35sec;
+    color: #e2e8f0;
+    font-family: "TheMixSemiBold-";
+    
+}
+header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 159px;
+    padding: 70px ;
+    overflow: hidden;
+   
+   
+}
+.navbar-container ul{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap:5px;
+    color: #e2e8f0;
+    font: 0.85rem ;
+    list-style-type: none;
+    padding-right:90px ;
+    line-height:3rem;
+    letter-spacing: initial;
+   
+
+    
+}
+
+@font-face {
+    font-family: "TheMixSemiBold-";
+    src: url(/styles/TheMixSemiBold-Plain.otf);
+}
+
+.join-button{
+    background-color: #0078BE;
+    border-radius:30px ;
+    cursor: pointer;
+    font-size: 14.4px;
+    font-weight: 400;
+   color: #e2e8f0;
+   letter-spacing: 1px;
+   
+}
+
+.hero-title{
+    color: #FFFFFF;
+    font-family: "TheMixBlack-Caps", Sans-serif;
+    font-size: 50px;
+    font-weight: 600px;
+    text-align: center;
+    margin-top: 200px;
+   
+}
+
+
+
+
