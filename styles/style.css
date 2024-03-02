@@ -69,5 +69,12 @@ header{
 }
 
 
+.boxes{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    margin: 0px 15px 24px 15px;
 
+}
 
