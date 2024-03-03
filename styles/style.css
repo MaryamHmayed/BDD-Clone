@@ -12,7 +12,7 @@
     height: 1024px;
     transition: background-image 0.35sec;
     color: #e2e8f0;
-    font-family: "TheMixSemiBold-";
+    font-family:"TheMixSemiBold-Plain" ;
     
 }
 header{
@@ -22,6 +22,7 @@ header{
     height: 159px;
     padding: 70px ;
     overflow: hidden;
+
    
    
 }
@@ -42,10 +43,7 @@ header{
     
 }
 
-@font-face {
-    font-family: "TheMixSemiBold-";
-    src: url(/styles/TheMixSemiBold-Plain.otf);
-}
+
 
 .join-button{
     background-color: #0078BE;
@@ -71,10 +69,32 @@ header{
 
 .boxes{
     display:flex;
-    justify-content: space-evenly;
+    flex-direction: column;
+    justify-content:flex-start;
     align-items: center;
     text-align: center;
     margin: 0px 15px 24px 15px;
+    background-color: #e2e8f0;
+    border-radius: 1rem;
+    border-width: 1px;
+    height: 400px;
+    width: fit-content;
+   
+}
+
+.foundations-contain{
+    font-family: "TheMixBlack-Caps", Sans-serif;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+h2{
+    text-align: center;
+    padding:30px;
+    font-size: 32px;
+    font-weight: 600;
+    color:#212121
 
 }
 
