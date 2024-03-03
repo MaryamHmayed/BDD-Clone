@@ -96,7 +96,7 @@ a{
 
 }
 
-h2{
+.boxes h2{
     text-align: center;
     padding:30px;
     font-size: 32px;
@@ -121,6 +121,49 @@ h2{
     
     background-color:black;
 }
+.join-container{
+    display: flex;
+    justify-content: space-evenly;
+    
 
-.video{
+}
+
+.community-container{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.section-4 h2{
+    text-align: center;
+    padding: 30px;
+    font-weight: 600;
+
+}
+
+.community-container img{
+    height:350px;
+    width: 380px;
+}
+
+.join-boxes{
+   margin-left: 20px;
+   margin-right: 30px;
+   background-color:#e2e8f0;
+   border-radius: 0.25rem;
+
+   
+}
+.join-boxes ul{
+    list-style-type: none;
+}
+
+.join-boxes button{
+    border-radius: 0.25rem;
+    margin-top: 120px;
+    background-color:#e2e8f0;
+   
+
+}
+.join-boxes:hover{
+    opacity: 1;
 }
