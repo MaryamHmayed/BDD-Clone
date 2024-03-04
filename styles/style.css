@@ -7,14 +7,22 @@
 
 
 .section-1{
-    background-image: url(/assets/slide1.jpg);
+    
     width: 1349px;
     height: 1024px;
-    transition: background-image 0.35sec;
-    
     font-family:"TheMixSemiBold-Plain" ;
+    background-image: url("/assets/slide1.jpg");
+    animation: changeBackground 6s infinite;
+    background-repeat: no-repeat;
+
     
 }
+@keyframes changeBackground {
+    0% { background-image: url('/assets/slide2.jpg'); }
+    33.33% { background-image: url('/assets/slide3.jpg'); }
+    66.66% { background-image: url('/assets/slide4.jpg') }
+    100% { background-image: url('/assets/slide5.jpg'); }
+  }
 header{
     display:flex;
     justify-content: space-between;
@@ -128,6 +136,11 @@ a{
 
 .section-3{
     background-image: url(/assets/Shared-Space-at-BDD.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 500px;
     text-align: center;
     padding: 30px;
     font-size: 32px;
@@ -174,9 +187,10 @@ a{
 
 .join-boxes button{
     border-radius: 0.25rem;
-    margin-top: 120px;
+    margin-top: 140px;
     background-color:#e2e8f0;
-   
+    background-color: #0078BE;
+    
 
 }
 .join-boxes:hover{
@@ -193,4 +207,11 @@ a{
     width: 200px;
     padding-top: 20px;
 
+}
+
+
+
+
+@media screen {
+    
 }
