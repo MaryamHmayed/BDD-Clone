@@ -22,17 +22,20 @@ header{
     height: 159px;
     padding: 70px ;
     overflow: hidden;}
+
 a{
     text-decoration: none;
 }
 
 
 .navbar-container ul{
+    color: #FFFFFF;
+    letter-spacing: 1px;
     text-decoration: none;
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    gap:5px;
+    gap:40px;
     font: 0.85rem ;
     list-style-type: none;
     padding-right:90px ;
@@ -51,18 +54,16 @@ a{
     cursor: pointer;
     font-size: 14.4px;
     font-weight: 400;
-   color: #e2e8f0;
-   letter-spacing: 1px;
    
 }
 
 .hero-title{
     color: #FFFFFF;
     font-family: "TheMixBlack-Caps", Sans-serif;
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 600px;
     text-align: center;
-    margin-top: 200px;
+    margin-top: 260px;
    
 }
 
@@ -85,6 +86,11 @@ a{
 
    
 }
+.BDD-foundations h2{
+    text-align: center;
+    font-family: "TheMixBlack-Caps", Sans-serif;
+
+}
 
 .foundations-contain{
     font-family: "TheMixBlack-Caps", Sans-serif;
@@ -93,8 +99,17 @@ a{
     background-color: #e2e8f0;
     align-items: center;
     flex-wrap: wrap;
+    
 
 }
+.boxes p{
+    color: #646464;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: "TheMixSemiBold-Plain";
+
+}
+
 
 .boxes h2{
     text-align: center;
@@ -166,4 +181,16 @@ a{
 }
 .join-boxes:hover{
     opacity: 1;
+}
+
+.section-4-end{
+    text-align: center;
+    padding-top: 30px;
+}
+
+.section-4-end img{
+    height:70px;
+    width: 200px;
+    padding-top: 20px;
+
 }
