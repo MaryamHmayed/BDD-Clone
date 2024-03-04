@@ -29,7 +29,9 @@ header{
     align-items: center;
     height: 159px;
     padding: 70px ;
-    overflow: hidden;}
+    top:0;
+
+}
 
 a{
     text-decoration: none;
@@ -209,7 +211,25 @@ a{
 
 }
 
+.section-5{
+    background-image: url(/assets/parallax-light.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 500px;
+    text-align: center;
+    padding: 30px;
 
+}
+.hub-boxes{
+  padding: 30px;
+}
+
+.hub-container{
+    display: flex;
+    justify-content: space-around;
+}
 
 
 @media screen {
